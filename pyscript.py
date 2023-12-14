@@ -4,6 +4,6 @@ import random
 
 rannumber = random.randint(1, 5)
 
-films_list = ["Любовь и голуби", "Иван Васильевич", "Бриллиантовая рука", "12 стульев", "Москва слезам не верит")
+films_list = ["Любовь и голуби", "Иван Васильевич", "Бриллиантовая рука", "12 стульев", "Москва слезам не верит"]
 
-print(film_list[rannumber]))
+print(films_list[rannumber-1])
