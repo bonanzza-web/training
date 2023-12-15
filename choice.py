@@ -31,7 +31,7 @@ def main():
 		elif choice == 2:
 			choice_film(films)
 			print("You choiced" + choice_film(films))
-			input("Push enter for exit: )
+			input("Push enter for exit: ")
 			break
 		elif choice == 3:
 			print("Exit")
