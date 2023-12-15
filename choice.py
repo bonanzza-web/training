@@ -30,5 +30,13 @@ def main():
 			add_film(films, new_film)
 		elif choice == 2:
 			choice_film(films)
-			random_film(films)
+			print("You choiced" + choice_film(films))
+			input("Push enter for exit: )
+			break
+		elif choice == 3:
+			print("Exit")
+			break
+		else:
+			print("Choice an option")
 
+main()
