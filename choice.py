@@ -20,3 +20,10 @@ def main()
 		print("Print 2 for choice a film")
 		print("Print 3 for exit")
 
+		choice = int(input("Choice an option")
+
+		if choice == 1:
+			new_film = input("Enter film")
+			add_film(films, new_film)
+		elif choice == 2:
+			choice_film(films)
