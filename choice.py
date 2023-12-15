@@ -20,9 +20,15 @@ def main():
 		print("Print 2 for choice a film")
 		print("Print 3 for exit")
 
-		choice = int(input("Print option: "))
+		choice = int(input("Choice option: "))
 
 		if choice == 1:
-			new_film = input("Add film: ")
+			new_film = input("Add film:  ")
 
-main()
+		if choice == 1:
+			new_film = input("Enter film")
+			add_film(films, new_film)
+		elif choice == 2:
+			choice_film(films)
+			random_film(films)
+
