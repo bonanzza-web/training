@@ -22,15 +22,12 @@ def main():
 
 		choice = int(input("Choice option: "))
 
-		if choice == 1:
-			new_film = input("Add film:  ")
 
 		if choice == 1:
-			new_film = input("Enter film")
+			new_film = input("Enter film: ")
 			add_film(films, new_film)
 		elif choice == 2:
 			choice_film(films)
-			print("You choiced" + choice_film(films))
 			input("Push enter for exit: ")
 			break
 		elif choice == 3:
