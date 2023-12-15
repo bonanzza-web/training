@@ -27,7 +27,7 @@ def main():
 			add_film(films, new_film)
 		elif choice == 2:
 			print("You choiced" + choice_film(films))
-			input("Push enter for exit: )
+			input("Push enter for exit: ")
 			break
 		elif choice == 3:
 			print("Exit")
