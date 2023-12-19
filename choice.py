@@ -20,20 +20,19 @@ def main():
 		print("Print 2 for choice a film")
 		print("Print 3 for exit")
 
-		choice = int(input("Choice option: "))
+		choice = input("Choice option: ")
 
-
-		if choice == 1:
+		if choice == "1":
 			new_film = input("Enter film: ")
 			add_film(films, new_film)
-		elif choice == 2:
-			choice_film(films)
+		elif choice == "2":
+			print("You choiced" + str(choice_film(films)))
 			input("Push enter for exit: ")
 			break
-		elif choice == 3:
+		elif choice == "3":
 			print("Exit")
 			break
 		else:
-			print("Choice an option")
+			print(choice)
 
 main()
