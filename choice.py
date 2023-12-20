@@ -11,7 +11,7 @@ def choice_film(films):
 		print("Not added films")
 		return
 	random_film = random.choice(films)
-	print(random_film)
+	print("You choiced: ", random_film)
 
 def main():
 	films = []
@@ -26,7 +26,7 @@ def main():
 			new_film = input("Enter film: ")
 			add_film(films, new_film)
 		elif choice == "2":
-			print("You choiced" + str(choice_film(films)))
+			choice_film(films)
 			input("Push enter for exit: ")
 			break
 		elif choice == "3":
@@ -35,4 +35,5 @@ def main():
 		else:
 			print(choice)
 
-main()
+if __name__ == "__main__":
+	main()
